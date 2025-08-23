@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <!--
+        -->
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <meta name="color-scheme" content="light dark">
+        <link rel="stylesheet" href="css/index.css">
+        <title>Hello World</title>
+    </head>
+    <body>
+        <div class="app">
+            <h1>Life Force Energy</h1>
+            <div id="deviceready" class="blink">
+                <p class="event listening">Connecting to Device</p>
+                <p class="event received">Device is Ready</p>
+                <video class="" controls="" autoplay="" name="media"
+                       id='video' width='100%' height='500'>
+                  <source src='http://localhost:8000/configs/stream_media?id=8' type="video/mp4"></source>
+                </video>
+                <p></p>
+                <p></p>
+            </div>
+        </div>
+        <div id="debug"></div>
+        <script src="cordova.js"></script>
+        <script src="js/index.js"></script>
+        <script src="js/gps.js"></script>
+        <script src="js/api.js"></script>
+        <script src="js/profile_ia.js"></script>
+        <script src="js/config.js"></script>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/sweetalert.min.js"></script>
+        <script type='module' src="js/fingerprint.js"></script>
+    </body>
+</html>

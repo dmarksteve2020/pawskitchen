@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+    <meta name="color-scheme" content="light dark">
+    
+    <link rel="stylesheet" href="css/index.css">
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type='module' src="js/fingerprint.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/catcher.js"></script>
+    <script src="js/pawapi.js"></script>
+    <script src="js/sweetalert.min.js"></script>
+
+    <title></title>
+</head>
+<body>
+    <div id="stats">
+        <h1><b>Are you interested in cooking food, making a recipe, delivering it?</h1><br>
+        <h3>
+		<p>
+		We are a network of dog lovers making fresh food daily looking for your help.
+		</p>
+		<p>
+		We are building a network of dogs that are hungry for delicious home cooked food paired with people who want to cook for them.<p> 
+
+		<p>The list of ingredients are:<p>
+		<p> * Turkey, Chicken, Peas, Carrots, Sweet Patato, Rice, Egg, Corn <p>
+
+		Join the network get notified of cooking oppertunity:<br>
+		<input type='text' placeholder='Cooks name (optional)' id='cookname'/><br>
+		<input type='text' placeholder='Cooks email (optional)' id='cookemail'/><br>
+		<input type='text' placeholder='Cooks phone number (optional)' id='cookphone'/><br>
+		<input type='text' placeholder='Cooks zipcode (optional)' id='cookzipcode'/><br>
+		<button id='addcook'>Add</button><br>
+
+		Sign up to be cooked for:<br>
+		<input type='text' placeholder='Dog's Name (optional)' id='dogname'/><br>
+		<input type='text' placeholder='your email (optional)' id='dogemail'/><br>
+		<input type='text' placeholder='Dog's phone # (optional)' id='dogphone'/><br>
+		<input type='text' placeholder='Dog's Zipcode' id='dogzipcode'/><br>
+		<button id='adddog'>Add</button><br>
+
+	</h3>
+    </div>
+
+    <div id='map_canvas' style='width:100%;height:200px;'></div>
+    <div id='debug'></div>
+    <div id='debug3'></div>
+    <div id='debug2'></div>
+</body>
+
+</html>
