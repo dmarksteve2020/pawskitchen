@@ -1,9 +1,16 @@
 function initpaws() {
 
+	$('#adddog').on('click', function() {
+		alert("Comming soon");
+		return
+	})
+
 	$('#addcook').on('click', function() {
 
+		alert("Comming soon");
+		return
 	    var form = new FormData();
-	    form.append("deviceid", get_finger_print())
+	    // form.append("deviceid", get_finger_print())
 	    form.append("source", window.location.host);
 	    form.append("cookname", $("cookname").val());
 	    form.append("cookemail", $("#cookemail").val());
